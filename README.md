@@ -18,4 +18,4 @@
 ## Usage
 1. Initialize a SQLConnection object
 2. Execute sql from a .sql file path or from a SQL statement written out in a string
-3. To return the SQL results in a pandas DataFrame, set return_results=True in the execute__sql method
+3. To return the SQL results in a pandas DataFrame, set return_results=True in the execute_sql method
