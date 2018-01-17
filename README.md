@@ -19,3 +19,4 @@
 1. Initialize a SQLConnection object
 2. Execute sql from a .sql file path or from a SQL statement written out in a string
 3. To return the SQL results in a pandas DataFrame, set return_results=True in the execute_sql method
+4. SQL queries should not contain -- style comments, as this can cause issues when converting to a string
